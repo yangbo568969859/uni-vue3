@@ -1,0 +1,79 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "易租",
+        "navigationStyle":"custom"
+			}
+		},
+    {
+      "path": "pages/Landlord/AdministratorManager/index"
+    },
+    {
+      "path": "pages/Landlord/Category/index"
+    },
+    {
+      "path": "pages/Landlord/Category/selectCategory",
+      "style": {
+				"navigationBarTitleText": "选择分类",
+        "enablePullDownRefresh": true
+			}
+    },
+    {
+      "path": "pages/Landlord/Category/categorySetting",
+      "style": {
+				"navigationBarTitleText": "分类设置"
+			}
+    },
+    {
+      "path": "pages/Landlord/Hydropower/index"
+    },
+    {
+      "path": "pages/Landlord/Recharge/index"
+    },
+    {
+      "path": "pages/Landlord/Workbench/index"
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "易租",
+		"navigationBarBackgroundColor": "#F1CD4F",
+		"backgroundColor": "#F8F8F8"
+	},
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#CB9F05",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "易租"
+      },
+      {
+        "pagePath": "pages/Landlord/AdministratorManager/index",
+        "text": "代办"
+      },
+      {
+        "pagePath": "pages/Landlord/Category/index",
+        "text": "操作"
+      },
+      {
+        "pagePath": "pages/Landlord/Hydropower/index",
+        "text": "房间车位"
+      },
+      {
+        "pagePath": "pages/Landlord/Recharge/index",
+        "text": "流水"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+			"^uni-(.*)": "@/components/uni-$1/uni-$1.vue"
+		}
+  }
+}

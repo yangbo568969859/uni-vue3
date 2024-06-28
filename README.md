@@ -1,0 +1,1 @@
+//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
